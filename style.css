@@ -1,0 +1,117 @@
+ 
+
+ 
+ 
+ * { margin:0%; 
+ padding:0%; }
+
+header
+{
+    width:100%;
+  
+  height:100vh;
+   
+ background-image:linear-gradient(to 
+    left,#fff 80%,#c3f5ff 20%);
+}
+
+
+.robo{
+    width:100%;
+    height:20vh;
+    background-color:orange;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image:linear-gradient(to 
+    top,#fff 80%,#c3f5ff 20%);
+}
+
+
+
+.logo{
+   width:40%;
+   color:#fff;
+   background-image:linear-gradient(
+   #8d98e3 40%,#854fee 60%);
+   padding: 50px; box-sizing: border-box;left:100px
+}
+
+
+.logo h1{
+  text-transform: uppercase;
+  font-size:1.6rem;
+  animation: forwaback 2s linear infinite;
+  animation-direction: alternate;
+}
+
+
+ 
+
+.rogo{
+background-image:linear-gradient(
+orange,white,lime)
+}
+
+
+
+
+@keyframes forwaback{
+  from{padding-left:50px;}
+  to {padding-right:50px;}
+}
+
+nav{
+  width:60%;
+  display:flex;
+  justify-content: space-around;
+}
+nav a{ 
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#000;
+  font-weight:900;
+  font-size:17px;
+  position: relative;
+}
+
+ 
+
+nav a:first-child{
+   color:blue;
+  }
+  
+nav a:before{
+  content:"" ;
+  position: absolute;
+  top:110%;
+  left: 0%;
+  width: 0%;
+  height:2px;
+  border-bottom:3px solid blue;
+  transition: all 0.4s linear;
+}
+
+nav a:hover:before{
+  width: 100%;
+}
+
+main{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ 
+
+.toytext-transform: uppercase;
+  font-size:1.6rem;
+  animation: forwaback 2s linear infinite;
+  animation-direction: alternate;
+  
+}
+
+  
+
